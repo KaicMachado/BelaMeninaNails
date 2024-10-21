@@ -54,6 +54,7 @@ button {
  border: none;
  border-radius: 8px;
  transition: scale 0.3s;
+ animation: scaleAnimation 2s infinite;
 }
 
 a {
@@ -70,4 +71,17 @@ button a {
 
 button:hover {
  scale: 1.1;
+}
+
+/* Definindo a animação com keyframes */
+@keyframes scaleAnimation {
+ 0% {
+  transform: scale(1);
+ }
+ 50% {
+  transform: scale(1.1);
+ }
+ 100% {
+  transform: scale(1);
+ }
 }
