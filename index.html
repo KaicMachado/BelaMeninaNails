@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BelaMenina | Nails</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+    rel="stylesheet">
+
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+  <nav class="shadow">
+    <div class="navBar">
+      <img width="60" height="60" src="assets/logo.jpg" alt="Logo da empresa">
+      <h1>BelaMenina | Nails</h1>
+    </div>
+  </nav>
+  <main class="container">
+    <h2>Meus serviços</h2>
+
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <div class="content-slide">
+            <div class="content-slide">
+              <h3>Manicure</h3>
+              <img src="assets/manicure.png" alt="Manicure">
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="content-slide">
+            <div class="content-slide">
+              <h3>Pedicure</h3>
+              <img src="assets/pedicure.png" alt="Manicure">
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="content-slide">
+            <div class="content-slide">
+              <h3>Plástica dos Pés</h3>
+              <img src="assets/plastica.png" alt="Manicure">
+            </div>
+          </div>
+        </div>
+        ...
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </main>
+  <button><a
+      href="https://api.whatsapp.com/send?phone=+5516992332187&text=Ol%C3%A1%2C+gostaria+de+agendar+um+hor%C3%A1rio+de+unha+com+a+Andreia"
+      target="_blank">Agende
+      seu Horário <img src="assets/logo-whats.svg" alt="Logo Whatsapp"></a></button>
+  <script src="swiper.js"></script>
+</body>
+
+</html>
